@@ -1,0 +1,11 @@
+id: task_013
+hidden_eval_id: task_013
+entry_hints:
+  - line_reader.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: parsing
+difficulty: medium
+bug_pattern: final_buffer_not_flushed_without_trailing_newline
+expected_patch_lines: 3

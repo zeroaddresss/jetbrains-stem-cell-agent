@@ -1,0 +1,11 @@
+id: task_008
+hidden_eval_id: task_008
+entry_hints:
+  - date_formatter.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: formatting
+difficulty: easy
+bug_pattern: single_digit_month_not_zero_padded
+expected_patch_lines: 1

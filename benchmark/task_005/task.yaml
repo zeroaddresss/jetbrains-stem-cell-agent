@@ -1,0 +1,11 @@
+id: task_005
+hidden_eval_id: task_005
+entry_hints:
+  - names.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: collections
+difficulty: easy
+bug_pattern: deduplication_breaks_input_order
+expected_patch_lines: 1

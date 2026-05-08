@@ -1,0 +1,11 @@
+id: task_016
+hidden_eval_id: task_016
+entry_hints:
+  - duration.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: formatting
+difficulty: easy
+bug_pattern: minute_component_not_reduced_after_hour_rollover
+expected_patch_lines: 1

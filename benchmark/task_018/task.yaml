@@ -1,0 +1,11 @@
+id: task_018
+hidden_eval_id: task_018
+entry_hints:
+  - positives.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: iteration
+difficulty: medium
+bug_pattern: iterable_consumed_twice_breaks_generator_inputs
+expected_patch_lines: 3

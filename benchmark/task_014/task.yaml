@@ -1,0 +1,11 @@
+id: task_014
+hidden_eval_id: task_014
+entry_hints:
+  - counters.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: collections
+difficulty: medium
+bug_pattern: fallback_logic_clobbers_valid_zero_override
+expected_patch_lines: 2

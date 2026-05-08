@@ -1,0 +1,11 @@
+id: task_001
+hidden_eval_id: task_001
+entry_hints:
+  - parser_utils.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: parsing
+difficulty: easy
+bug_pattern: trailing_delimiter_stripped_before_split
+expected_patch_lines: 1

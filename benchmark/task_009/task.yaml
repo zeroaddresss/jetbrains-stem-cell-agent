@@ -1,0 +1,11 @@
+id: task_009
+hidden_eval_id: task_009
+entry_hints:
+  - sorting.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: ordering
+difficulty: easy
+bug_pattern: default_sort_direction_opposite_to_spec
+expected_patch_lines: 1

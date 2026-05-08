@@ -1,0 +1,11 @@
+id: task_017
+hidden_eval_id: task_017
+entry_hints:
+  - safe_paths.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: paths
+difficulty: medium
+bug_pattern: absolute_child_path_bypasses_base_join_constraint
+expected_patch_lines: 3

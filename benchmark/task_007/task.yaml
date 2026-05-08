@@ -1,0 +1,11 @@
+id: task_007
+hidden_eval_id: task_007
+entry_hints:
+  - key_value.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: strings
+difficulty: easy
+bug_pattern: splitting_on_all_separators_instead_of_first
+expected_patch_lines: 1

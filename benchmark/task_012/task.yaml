@@ -1,0 +1,11 @@
+id: task_012
+hidden_eval_id: task_012
+entry_hints:
+  - tags.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: state
+difficulty: medium
+bug_pattern: mutable_default_list_shared_across_calls
+expected_patch_lines: 3

@@ -1,0 +1,11 @@
+id: task_003
+hidden_eval_id: task_003
+entry_hints:
+  - list_utils.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: filtering
+difficulty: easy
+bug_pattern: truthiness_drops_valid_zero
+expected_patch_lines: 1

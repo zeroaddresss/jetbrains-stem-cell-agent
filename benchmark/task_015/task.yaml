@@ -1,0 +1,11 @@
+id: task_015
+hidden_eval_id: task_015
+entry_hints:
+  - filenames.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: strings
+difficulty: easy
+bug_pattern: replace_removes_internal_suffix_occurrences
+expected_patch_lines: 1

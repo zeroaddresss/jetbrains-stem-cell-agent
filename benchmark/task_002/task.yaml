@@ -1,0 +1,11 @@
+id: task_002
+hidden_eval_id: task_002
+entry_hints:
+  - math_ops.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: numeric
+difficulty: easy
+bug_pattern: closed_interval_off_by_one
+expected_patch_lines: 1

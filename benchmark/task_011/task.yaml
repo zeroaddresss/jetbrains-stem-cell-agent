@@ -1,0 +1,11 @@
+id: task_011
+hidden_eval_id: task_011
+entry_hints:
+  - limits.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: boundary
+difficulty: easy
+bug_pattern: upper_bound_treated_as_exclusive
+expected_patch_lines: 1

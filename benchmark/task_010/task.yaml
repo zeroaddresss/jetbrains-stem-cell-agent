@@ -1,0 +1,11 @@
+id: task_010
+hidden_eval_id: task_010
+entry_hints:
+  - bool_parser.py
+visible_eval: pytest -q visible_tests
+time_budget_sec: 120
+max_agent_steps: 8
+category: parsing
+difficulty: easy
+bug_pattern: boolean_parser_is_case_sensitive
+expected_patch_lines: 1
